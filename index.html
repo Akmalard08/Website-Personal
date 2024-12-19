@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakultas Sistem Informasi - Universitas Pamulang</title>
+    <style>
+        /* Reset dan Gaya Umum */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: linear-gradient(to right, #e3f2fd, #ffffff);
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        header, footer {
+            background: linear-gradient(to right, #003366, #00509E);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin-bottom: 5px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h2 {
+            margin-bottom: 15px;
+            color: #003366;
+            font-size: 2rem;
+        }
+        section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: #007BFF;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .btn:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            padding: 15px 0;
+            font-size: 0.9rem;
+        }
+        /* Gaya Khusus */
+        .card {
+            display: inline-block;
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Fakultas Sistem Informasi</h1>
+        <p>Universitas Pamulang</p>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#program">Program Studi</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Beranda -->
+    <section id="beranda">
+        <h2>Selamat Datang</h2>
+        <p>Fakultas Sistem Informasi Universitas Pamulang berkomitmen untuk mencetak lulusan berkualitas dan profesional di bidang teknologi informasi.</p>
+        <a href="#program" class="btn">Lihat Program Studi</a>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang">
+        <h2>Tentang Fakultas</h2>
+        <div class="card">
+            <p>Kami berfokus pada pendidikan berkualitas dengan kurikulum terkini dan pengajar yang berpengalaman di bidang teknologi dan informasi.</p>
+        </div>
+    </section>
+
+    <!-- Program Studi -->
+    <section id="program">
+        <h2>Program Studi</h2>
+        <div class="card">
+            <ul>
+                <li><strong>S1 Sistem Informasi</strong></li>
+                <li><strong>D3 Manajemen Informatika</strong></li>
+                <li><strong>Sistem Informasi Bisnis</strong></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <div class="card">
+            <p>Email: info@unpam.ac.id</p>
+            <p>Telepon: (021) 123-4567</p>
+            <p>Alamat: Jl. Raya Pamulang No.1, Tangerang Selatan</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fakultas Sistem Informasi - Universitas Pamulang</p>
+        <p>Nama: Akmal Ardiansyah | NIM: 241011701298</p>
+    </footer>
+</body>
+</html>
